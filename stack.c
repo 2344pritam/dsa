@@ -1,6 +1,6 @@
 #include "stack.h"
 #include<stdlib.h>
-
+#include<stdio.h>
 
 //create stack
 void createStack(st *s){
@@ -51,7 +51,7 @@ int pop(st *s){
 void printStack(st *s){
     int  top = s->top;
     for(int i=top;i>=0;i--){
-        printf(s->items[i]);
+        printf("%d",s->items[i]);
     }
 }
 
