@@ -29,3 +29,5 @@ void postorderTraversal(node* root){
     printf("%d->", root->data);
 }
 
+
+
