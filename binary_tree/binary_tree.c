@@ -87,9 +87,10 @@ TreeNode* delete(TreeNode* root,int data){
         // Copy Successor Data to root
         root->data = succ->data;
  
-        // Delete Successor and return root
+  // Delete Successor and return root
         free(succ);
         return root;
     }
 
 }
+      
